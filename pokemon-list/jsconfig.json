@@ -1,0 +1,90 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"]
+}
+
+
+/*
+
+
+import { useState } from "react";
+
+const App = () => {
+  const [yaricap, setYaricap] = useState(42);
+
+  return (
+    <div>
+      <h1>Yarıçap : {yaricap}</h1>
+      <h1>Alan : {yaricap * yaricap * Math.PI}</h1>
+      <h1>Çevre : {2 * Math.PI * yaricap}</h1>
+    </div>
+  );
+};
+
+export default App;
+
+*/
+
+
+
+
+/*
+
+// rafce
+
+import { useState } from "react";
+
+const App = () => {
+  // usss
+  const [yaricap, setYaricap] = useState(42);
+  const [alan, setAlan] = useState(0);
+  const [cevre, setCevre] = useState(0);
+
+  return (
+    <>
+      <button
+        onClick={() => {
+          setAlan(3 * yaricap * yaricap);
+          setCevre(2 * 3 * yaricap);
+        }}
+      >
+        Daire alanı hesapla
+      </button>
+      <h1>Yarıçap: {yaricap}</h1>
+      <h1>Alan: {alan}</h1>
+      <h1>Çevre: {cevre}</h1>
+    </>
+
+    */
+
+
+
+
+
+    /*
+    <>
+      <h1>BMI Hesaplama</h1>
+      <label>
+        Kilo (kg):
+        <input
+          type="number"
+          value={kg}
+          onChange={(e) => setkg(Number(e.target.value))}
+        />
+      </label>
+      <label>
+        Boy (m):
+        <input
+          type="number"
+          value={boy}
+          onChange={(e) => setboy(Number(e.target.value))}
+        />
+      </label>
+      <button onClick={() => setbmi(kg / (boy * boy))}>Hesapla</button>
+      <h2>BMI Sonucu: {bmi}</h2>
+    </>
+    */
